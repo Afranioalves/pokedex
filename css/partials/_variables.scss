@@ -20,3 +20,9 @@ $white: #fff;
 $white-2: #eee;
 $red: #fc6c6d;
 $black: #333;
+
+@mixin flexProps($justifyContent, $alignItems) {
+  display: flex;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+}
