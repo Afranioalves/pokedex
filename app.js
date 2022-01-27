@@ -32,7 +32,7 @@ const generateHTML = (pokemons) =>
                 <div class="bar__progress" style="${
                   stats[0].base_stat >= 50
                     ? `background: #49D0B0; width: ${stats[0].base_stat}%`
-                    : `width: ${stats[0].base_stat}%`
+                    : `background: #fc6c6d; width: ${stats[0].base_stat}%`
                 }"></div>
               </div>
             </li>
@@ -43,7 +43,7 @@ const generateHTML = (pokemons) =>
               <div class="bar__progress" style="${
                 stats[1].base_stat >= 50
                   ? `background: #49D0B0; width: ${stats[1].base_stat}%`
-                  : `width: ${stats[1].base_stat}%`
+                  : `background: #fc6c6d; width: ${stats[1].base_stat}%`
               }"></div>
               </div>
             </li>
@@ -54,7 +54,7 @@ const generateHTML = (pokemons) =>
               <div class="bar__progress" style="${
                 stats[2].base_stat >= 50
                   ? `background: #49D0B0; width: ${stats[2].base_stat}%`
-                  : `width: ${stats[2].base_stat}%`
+                  : `background: #fc6c6d; width: ${stats[2].base_stat}%`
               }"></div>
               </div>
             </li>
@@ -65,7 +65,7 @@ const generateHTML = (pokemons) =>
               <div class="bar__progress" style="${
                 stats[3].base_stat >= 50
                   ? `background: #49D0B0; width: ${stats[3].base_stat}%`
-                  : `width: ${stats[3].base_stat}%`
+                  : `background: #fc6c6d; width: ${stats[3].base_stat}%`
               }"></div>
               </div>
             </li>
@@ -76,7 +76,7 @@ const generateHTML = (pokemons) =>
               <div class="bar__progress" style="${
                 stats[4].base_stat >= 50
                   ? `background: #49D0B0; width: ${stats[4].base_stat}%`
-                  : `width: ${stats[4].base_stat}%`
+                  : `background: #fc6c6d; width: ${stats[4].base_stat}%`
               }"></div>
               </div>
             </li>
@@ -87,7 +87,7 @@ const generateHTML = (pokemons) =>
               <div class="bar__progress" style="${
                 stats[5].base_stat >= 50
                   ? `background: #49D0B0; width: ${stats[5].base_stat}%`
-                  : `width: ${stats[5].base_stat}%`
+                  : `background: #fc6c6d; width: ${stats[5].base_stat}%`
               }"></div>
               </div>
             </li>

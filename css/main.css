@@ -229,7 +229,6 @@ img {
 .pokemon__stats .bar .bar__progress {
   position: absolute;
   height: 4px;
-  background: #fc6c6d;
   border-radius: 2px;
 }
 
